@@ -1,0 +1,177 @@
+*{
+    margin: 0px;
+  font-family: Arial;
+border: border-box;
+
+
+}
+
+.main-img{
+
+    background-image: url("mainBackground.png");
+    height: 650px;
+    background-size: cover;
+    
+
+
+}
+
+
+.nav{
+  padding: 20px;
+  font-size: 1rem;
+  color: white;
+  border-bottom: 7px white transparent;
+}
+.nav-logo{
+  width: 55%;
+}
+.nav{
+  display: flex;
+ justify-content: space-evenly;
+}
+.main-text{
+  height: 350px;
+  width: 600px;
+  color: white;
+  font-size: 2rem;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+button{
+  background-color: #7d0ce7;
+  color: white;
+  border-radius: 12px;
+  font-size: large;
+  border-color: transparent;
+}
+h5{
+  padding-top: 25px;
+  font-size: 12px;
+}
+.mini-logos{
+  margin-top: 125px;
+  height: 100px;
+  display: flex;
+  background-color: #fff;
+  margin-left: 10px;
+  /*margin-bottom: 205px;*/
+  margin-right: 10px;
+  justify-content: space-evenly;
+  border-top-left-radius: 34px;
+  border-top-right-radius: 34px;
+  align-items: center;
+  
+}
+img{
+  height: 50px;
+}
+.property-des{
+  margin-top: 25px;
+  height: 1000px;
+  background-color: whitesmoke;
+}
+.property-text{
+  margin-top: 50px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+h1{
+  padding-top: 25px;
+}
+
+
+
+
+
+.purchase-section{
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.box{
+  width: 23%;
+ 
+  height: 300px;
+ 
+  justify-content: center;
+  align-items: center;
+  padding: 15px 18px 15px 20px;
+  margin-top: 25px;
+ 
+}
+
+h2{
+  padding: 10px;
+}
+
+.final1{
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+}
+.box2-img{
+  display: flex;
+  
+}
+.final2{
+  height: 300px;
+  width: 300px;
+  border-radius: 30px;
+ 
+}
+.box{
+  font-size: 12px;
+ 
+}
+.final2:hover{
+  border: 7px solid rgb(200, 10, 233);
+}
+.final1:hover{
+  border: 7px solid rgb(200, 10, 233);
+}
+
+.poster-section2{
+ 
+  height: 800px;
+
+  background-color: whitesmoke;
+  position: relative;
+
+
+}
+.img1{
+  margin-top: 200px;
+  height: 370px;
+  width: 370px;
+ transform: rotateY(180deg);
+}
+.img2{
+  height: 300px;
+  width: 300px;
+position:absolute;
+bottom: 290px;
+left: 52px;
+  border-radius: 35px;
+ 
+
+}
+
+
+.notice{
+  height: 200px;
+  width: 500px;
+  background-color: rgb(136, 10, 233);
+  color: white;
+ border-radius: 35px;
+ margin-left: 370px;
+}
+.words{
+  justify-content: center;
+}
+.w{
+ padding-left: 15px;
+  justify-content: center;
+  align-items: center;
+}
